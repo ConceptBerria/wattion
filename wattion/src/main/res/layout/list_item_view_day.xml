@@ -1,0 +1,39 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/foto"
+        android:text="22:00"
+        android:layout_alignBottom="@+id/foto"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/precio"
+        android:textSize="@dimen/list_item_view_price_size"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14"
+        android:textSize="@dimen/list_item_view_price_size"
+        android:layout_alignBottom="@+id/hora"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

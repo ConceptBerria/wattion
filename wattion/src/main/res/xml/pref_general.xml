@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+    android:key="preferences_tarifa"
+    android:title="@string/pref_title_select_tarifa"
+    android:defaultValue="1"
+    android:entries="@array/pref_list_tarifa"
+    android:entryValues="@array/pref_list_tarifa_value"
+    android:negativeButtonText="@null"
+    android:positiveButtonText="@null" />
+    <ListPreference
+        android:key="preferences_divisa"
+        android:title="@string/pref_title_select_divisa"
+        android:defaultValue="1"
+        android:entries="@array/pref_list_divisa"
+        android:entryValues="@array/pref_list_divisa_value"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

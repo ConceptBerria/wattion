@@ -1,0 +1,19 @@
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.conceptberria.wattion.viewprice.SettingsActivity$Prefs2Fragment"
+        android:title="Configuración general"
+        android:icon="@drawable/ic_settings_black_24dp"
+         android:summary="Configuraciones generales de la aplicación">
+
+    </header>
+
+    <header android:fragment="com.conceptberria.wattion.viewprice.SettingsActivity$Prefs1Fragment"
+    android:title="Notificaciones"
+    android:icon="@drawable/ic_alarm_black_24dp"
+    android:summary="Configuración de las notificaciones." />
+
+
+
+
+ </preference-headers>

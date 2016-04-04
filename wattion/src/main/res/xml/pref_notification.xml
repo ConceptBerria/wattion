@@ -1,0 +1,30 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="notifications_best_price"
+        android:title="@string/pref_notify_best_price"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:key="notifications_worst_price"
+        android:title="@string/pref_notify_worst_price"
+        android:defaultValue="true" />
+    <SwitchPreference
+        android:key="notificar_horario"
+        android:title="Notificar solo entre horas:"
+        android:defaultValue="false"/>
+    <com.conceptberria.wattion.viewprice.PickerPreferences
+        android:dependency="notificar_horario"
+        android:key="desde_hora"
+        android:defaultValue="7"
+        android:dialogMessage="Se notificará desde:"
+        android:title="Desde" />
+    <com.conceptberria.wattion.viewprice.PickerPreferences
+        android:dependency="notificar_horario"
+        android:key="hasta_hora"
+        android:defaultValue="22"
+        android:dialogMessage="Se notificará hasta:"
+        android:title="Hasta"
+
+        />
+</PreferenceScreen>

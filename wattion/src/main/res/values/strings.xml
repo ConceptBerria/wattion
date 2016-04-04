@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Watti On</string>
+    <string name="title_section1">Hoy</string>
+    <string name="title_section2">Por Horas</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_about">Sobre Watti On</string>
+    <string name="title_activity_about">about</string>
+    <string name="kwh">€/kWh</string>
+    <string name="title_section3">Mañana</string>
+    <string name="pref_notify_worst_price">   Notificar peor precio diario</string>
+    <string name="pref_notify_best_price">    Notificar mejor precio diario</string>
+    <string name="text_no_info_tomorrow">Todavía no existe información publicada del PVPC de mañana. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="mientras_msg">¿Te ha gustado la nueva versión? Compártelo en las redes sociales:</string>
+    <string name="cardview_actual_header">Actual</string>
+    <string name="peor_rango_label">Peor rango</string>
+    <string name="mejor_rango_label">Mejor rango</string>
+    <string name="precio_medio_label">Precio medio día:</string>
+    <string name="otros_valores_header">Otros valores</string>
+    <string name="aviso_car_header">Aviso</string>
+    <string name="actual_header">Actual</string>
+    <string name="notif_best_header">Watti On: </string>
+    <string name="notif_best_body">¡Es el precio más bajo!:</string>
+    <string name="notif_worst_header">Watti Off: </string>
+    <string name="notif_worst_body">¡Es el precio más alto!:</string>
+    <string name="error_internet">Es necesario tener conexión a internet para entrar en la aplicación</string>
+    <string name="error_obtener_info">Ha habido un error al obtener la información</string>
+    <string name="ok_dialog">Aceptar</string>
+
+
+</resources>
